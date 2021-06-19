@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">家庭简约记账</string>
+
+    <!--    注册的-->
+    <string name="register">注册</string>
+    <string name="name">请输入用户名</string>
+    <string name="pwd">请输入密码</string>
+    <string name="pwd_again">请再输入密码</string>
+    <string name="btn_register">注册</string>
+    <!--    登录的-->
+    <string name="login">登录</string>index
+    <string name="tv_register">去注册</string>
+    <string name="find_pwd">忘记密码</string>
+
+    <string name="editone">记一笔...</string>
+    <string name="month_out">本月支出</string>
+    <string name="out">支出</string>
+    <string name="month_in">本月收入</string>
+    <string name="in">收入</string>
+    <string name="budget">预算剩余</string>
+    <string name="set_budget">设置预算</string>
+    <string name="see_excel">查看图表分析</string>
+    <string name="add_remark">添加备注</string>
+    <string name="remark">备注</string>
+    <string name="ensure">确定</string>
+    <string name="cancel">取消</string>
+
+    <!--    设置的-->
+    <string name="me">我的</string>
+    <string name="up_pwd">修改密码</string>
+    <string name="loginout">退出登录</string>
+    <string name="setting">设置</string>
+    <string name="clear_all">清空所有记录</string>
+    <!--    修改密码的-->
+    <string name="et_old_pwd">请输入原始密码</string>
+    <string name="et_new_pwd">请输入新密码</string>
+    <string name="et_new_pwd_again">请再次输入新密码</string>
+    <string name="btn_save">保存</string>
+
+    <string name="history_record">账单记录</string>
+    <string name="account_info">账单详情</string>
+    <string name="please_input_time">请输入时间(24小时制)</string>
+    <string name="please_search_info">请输入搜索信息</string>
+    <string name="date_empty">数据为空，无此类记录~~</string>
+    <string name="chart_info">账单详情</string>
+
+    <string name="history_info">本月账单记录</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="not_data">暂无数据</string>
+</resources>

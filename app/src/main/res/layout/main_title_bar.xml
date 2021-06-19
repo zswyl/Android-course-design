@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#78A4FA">
+
+    <TextView
+        android:id="@+id/tv_back"
+        android:background="@drawable/go_back_selector"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_main_title"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:text="@string/register"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
+

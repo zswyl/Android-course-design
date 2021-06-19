@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorLogin">
+
+    <include layout="@layout/main_title_bar"/>
+
+    <EditText
+        android:id="@+id/et_originnal_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="85dp"
+        android:background="#ffffff"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:hint="@string/et_old_pwd"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/et_new_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#ffffff"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:hint="@string/et_new_pwd"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/et_new_pwd_again"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#ffffff"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:hint="@string/et_new_pwd_again"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/register_selector"
+        android:text="@string/btn_save"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"/>
+
+</LinearLayout>
